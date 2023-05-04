@@ -16,9 +16,6 @@ renamed as (
         latitude,
         longitude,
         confirmed,
-        deaths,
-        recovered,
-        active,
         combined_key
 
     from source
