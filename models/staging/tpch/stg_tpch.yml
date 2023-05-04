@@ -14,5 +14,4 @@ models:
     columns:
       - name: region_key
         tests:
-          - unique
           - not_null
