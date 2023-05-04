@@ -122,23 +122,20 @@ create schema aws_covid_data_lake with (location='s3://dbt-aws-<username>/');
 
 ```
 CREATE TABLE enigma_jhu (
-   fips VARCHAR,
-   admin2 VARCHAR,
-   province_state VARCHAR,
-   country_region VARCHAR,
-   last_update VARCHAR,
-   latitude DOUBLE,
-   longitude DOUBLE,
-   confirmed INTEGER,
-   deaths INTEGER,
-   recovered INTEGER,
-   active INTEGER,
-   combined_key VARCHAR
+    fips varchar,
+    admin2 varchar,
+    province_state varchar,
+    country_region varchar,
+    last_update varchar,
+    latitude double,
+    longitude double,
+    confirmed varchar,
+    combined_key varchar
 )
 WITH (
-   format = 'json',
-   EXTERNAL_LOCATION = 's3://covid19-lake/enigma-jhu/json/')
-;
+    format = 'JSON',
+    external_location = 's3://covid19-lake/enigma-jhu/json/'
+);
 ```
 
 You should now be able to see all your sources within your cluster.
