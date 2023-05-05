@@ -61,11 +61,11 @@ Click within the newly created role, and navigate to the Privileges tab. Select 
 
 Add the table privilege information for both tables:
 
-**Modify privileges:** Table
+**Modify privileges:** Table 
 **Catalog contains the tables:** dbt_aws_tgt
 **Which schemas can this role access:** dbt_mmiller (same one created in dbt)
 **Which tables can this role access:** agg_nation
-**What can they do:** Allow select from table
+**What can they do:** Allow select from table  
 
 
 **Modify privileges:** Table /n
