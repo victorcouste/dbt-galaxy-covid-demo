@@ -1,4 +1,4 @@
-# dbt + Trino: Starburst Galaxy covid demo!
+# dbt + Trino: Starburst Galaxy COVID-19 tutorial!
 
 There's a non-insignificant amount of setup work. The entire value prop of Trino and Galaxy is to be able to grab and transform data regardless of where it is. To demo this, you have to create at least one place for data to be and put data into it. Then you must set up a Galaxy account and give it access to the external data stores as well as where output data will be stored. The silver lining is that you only have to do this once, ever!
 
