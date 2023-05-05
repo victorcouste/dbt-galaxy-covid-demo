@@ -1,7 +1,7 @@
 
-I’ve logged into Starburst Galaxy and completed all the necessary setup infrastructure steps so that I am now ready to connect to dbt Cloud.  First thing’s first, you need to set up a project. 
+I’ve logged into Starburst Galaxy and completed all the necessary setup [infrastructure steps](https://github.com/monimiller/dbt-galaxy-covid-demo/blob/main/INFRA_SETUP.MD) so that I am now ready to connect to dbt Cloud.  First thing’s first, you need to set up a project. 
 
-Project name: dbt-galaxy
+**Project name:** dbt-galaxy
 Choose a connection: Starburst
 
 
