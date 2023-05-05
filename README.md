@@ -19,7 +19,7 @@ You will also need:
 
 - A dbt installation of your choosing (core or cloud).
 - For **core**:  I used a virtual environment on my M1 mac because that was the most recommended. I'll add the steps below in this readme. Review the other [dbt core installation information](https://docs.getdbt.com/dbt-cli/install/overview) to pick what works best for you.
-- For **Cloud**: I registered for a free account and utilized this repository in [dbt Cloud](https://www.getdbt.com/signup/). This option requires less first time setup steps. 
+- For **Cloud**: I registered for a free account and utilized this repository in [dbt Cloud](https://www.getdbt.com/signup/). This option requires less first time setup steps. If you don't know what to pick, use this.
 
 ### Tutorial Information
 
@@ -28,8 +28,15 @@ The goal of this tutorial is to showcase the power of dbt + Starburst Galaxy tog
 1. Query federation across multiple data sources - dbt specializes as a transform tool and can only be utilized after the data is landed in a storage solution. Starburst Galaxy fixes that by allowing you to query your data from multiple sources.
 2. Data Lakehouse analytics - In this lab, we are going to build our lakehouse reporting structure in S3 and use slightly different naming conventions from the traditional Land, Structure, and Consume layer to accomodate for dbt standards. Land = Stage, Structure = Intermediate, Consume = Aggregate. For more information about the Starburst data lakehouse, visit this [blog](https://www.starburst.io/blog/part-2-of-current-data-patterns-blog-series-data-lakehouse/).
 
-
+### dbt Core
 For the dbt Core tutorial, visit this [blog](https://www.starburst.io/blog/build-a-data-lakehouse-reporting-structure-with-dbt-and-starburst-galaxy/) for more information.
+Use the [CORE.MD](https://github.com/monimiller/dbt-galaxy-covid-demo/blob/main/CORE.MD) as a README to run this demo using dbt Core.
+
+
+### dbt Cloud
+For the dbt Cloud tutorial, visit this [blog] for more information.
+Use the [CLOUD.MD](https://github.com/monimiller/dbt-galaxy-covid-demo/blob/main/CLOUD.MD) as a README to run this demo using dbt Cloud.
+
 
 
 ### Shoutouts
