@@ -15,6 +15,9 @@ This demo can be utilized for either dbt Core or dbt Cloud. Both will require yo
 
 Why are we using so many data sources? Well, for this data lakehouse tutorial we will take you through all the steps of creating a reporting structure, including the steps to get your sources into your land layer in S3. Starburst Galaxy's superpower with dbt is being able to federate data from multiple different sources into one dbt repository. Showing multiple sources helps demonstrate this use case in addition to the data lakehouse use case. If you are interested in only using S3, you can run all the `TPCH` and `AWS` models without having to create a snowflake login. The snowflake section will fail, but the rest should complete.
 
+<img width="1588" alt="Screenshot-2023-05-05-at-10 11 05-AM" src="https://user-images.githubusercontent.com/33696269/236518678-0051088e-58b6-4f9e-b5c1-899e656cdfce.png">
+
+
 You will also need:
 
 - A dbt installation of your choosing (core or cloud).
