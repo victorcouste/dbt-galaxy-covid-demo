@@ -61,18 +61,18 @@ Click within the newly created role, and navigate to the Privileges tab. Select 
 
 Add the table privilege information for both tables:
 
-**Modify privileges:** Table 
-**Catalog contains the tables:** dbt_aws_tgt
-**Which schemas can this role access:** dbt_mmiller (same one created in dbt)
-**Which tables can this role access:** agg_nation
-**What can they do:** Allow select from table  
+**Modify privileges:** Table <br>
+**Catalog contains the tables:** dbt_aws_tgt <br>
+**Which schemas can this role access:** dbt_mmiller (same one created in dbt) <br>
+**Which tables can this role access:** agg_nation <br>
+**What can they do:** Allow select from table  <br>
 
 
 **Modify privileges:** Table <br>
-**Catalog contains the tables:** dbt_aws_tgt
-**Which schemas can this role access:** dbt_mmiller (same one created in dbt)
-**Which tables can this role access:** agg_region
-**What can they do:** Allow select from table
+**Catalog contains the tables:** dbt_aws_tgt <br>
+**Which schemas can this role access:** dbt_mmiller (same one created in dbt) <br>
+**Which tables can this role access:** agg_region <br>
+**What can they do:** Allow select from table <br>
 
 Now, navigate to the consume_layer_access role in the top right corner. Try running select statements and deletes to see what permissions are now available to your data consumers. 
 
