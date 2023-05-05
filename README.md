@@ -1,7 +1,5 @@
 # dbt + Trino: Starburst Galaxy covid demo!
 
-Inspired by the [Cinco de Trino](https://github.com/dbt-labs/trino-dbt-tpch-demo) repo by [@jtcohen6](https://github.com/jtcohen6)!
-
 There's a non-insignificant amount of setup work. The entire value prop of Trino and Galaxy is to be able to grab and transform data regardless of where it is. To demo this, you have to create at least one place for data to be and put data into it. Then you must set up a Galaxy account and give it access to the external data stores as well as where output data will be stored. The silver lining is that you only have to do this once, ever!
 
 For the data source setup required for this tutorial, please see [INFRA_SETUP.MD](INFRA_SETUP.MD).
@@ -34,3 +32,6 @@ The goal of this tutorial is to showcase the power of dbt + Starburst Galaxy tog
 For the dbt Core tutorial, visit this [blog](https://www.starburst.io/blog/build-a-data-lakehouse-reporting-structure-with-dbt-and-starburst-galaxy/) for more information.
 
 
+### Shoutouts
+Shout out to [@dataders](https://github.com/dataders) for his awesome help!
+Inspired by the [Cinco de Trino](https://github.com/dbt-labs/trino-dbt-tpch-demo) repo by [@jtcohen6](https://github.com/jtcohen6)!
