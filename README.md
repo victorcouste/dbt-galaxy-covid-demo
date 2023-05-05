@@ -1,4 +1,4 @@
-# dbt + Trino: Starburst Galaxy covid demo
+# dbt + Trino: Starburst Galaxy covid demo!
 
 Inspired by the [Cinco de Trino](https://github.com/dbt-labs/trino-dbt-tpch-demo) repo by [@jtcohen6](https://github.com/jtcohen6)!
 
