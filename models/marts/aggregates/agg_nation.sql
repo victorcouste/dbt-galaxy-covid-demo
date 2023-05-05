@@ -34,7 +34,7 @@ final as (
 
 select
     nation,
-    SUM(confirmed) AS total_confirmed_cases,
+    SUM(CAST(confirmed as int)) AS total_confirmed_cases,
     SUM(total_population) as total_region_population,
     SUM(vaccinated_population) as vaccinated_population
 from
