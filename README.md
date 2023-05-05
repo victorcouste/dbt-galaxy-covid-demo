@@ -6,6 +6,9 @@ There's a non-insignificant amount of setup work. The entire value prop of Trino
 
 For the data source setup required for this tutorial, please see [INFRA_SETUP.MD](INFRA_SETUP.MD).
 
+
+This demo can be utilized for either dbt Core or dbt Cloud. Both will require you to complete the steps in [INFRA_SETUP.MD](INFRA_SETUP.MD) to set up the appropriate data sources.
+
 ## What you'll need:
 
 - A [Starburst Galaxy account](https://galaxy.starburst.io/login). This is the easiest way to get up and running with trino to see the power of trino + dbt.
@@ -16,7 +19,9 @@ Why are we using so many data sources? Well, for this data lakehouse tutorial we
 
 You will also need:
 
-- A dbt installation of your choosing. I used a virtual environment on my M1 mac because that was the most recommended. I'll add the steps below in this readme. Review the other [dbt core installation information](https://docs.getdbt.com/dbt-cli/install/overview) to pick what works best for you.
+- A dbt installation of your choosing (core or cloud).
+- For **core**:  I used a virtual environment on my M1 mac because that was the most recommended. I'll add the steps below in this readme. Review the other [dbt core installation information](https://docs.getdbt.com/dbt-cli/install/overview) to pick what works best for you.
+- For **Cloud**: I registered for a free account and utilized this repository in [dbt Cloud](https://www.getdbt.com/signup/). This option requires less first time setup steps. 
 
 ### Tutorial Information
 
