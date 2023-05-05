@@ -3,12 +3,13 @@ I’ve logged into Starburst Galaxy and completed all the necessary setup [infra
 
 **Project name:** dbt-galaxy 
 
-**Choose a connection:** Starburst
+**Choose a connection:** Starburst (Trino compatible)
 
 
 
 At step 3, Configure your environment, navigate back to the cluster you created in Starburst Galaxy. Click the Connection info button, and then select dbt as the client of choice. You should see connection information that looks something like this. 
 
+<img width="619" alt="Screenshot-2023-05-05-at-10 15 12-AM" src="https://www.starburst.io/wp-content/uploads/2023/05/Screenshot-2023-05-05-at-10.15.12-AM.png">
 
 
 Download the information and bring it back to dbt Cloud.  Put in the appropriate host and port from the connection info. Then, put in your username for Starburst Galaxy, but also attach the role you want to use (shown as User in the connection info). Enter your Galaxy password.
