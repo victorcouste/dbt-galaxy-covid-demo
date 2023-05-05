@@ -67,6 +67,7 @@ Add the table privilege information for both tables:
 **Which tables can this role access:** agg_nation
 **What can they do:** Allow select from table
 
+
 **Modify privileges:** Table
 **Catalog contains the tables:** dbt_aws_tgt
 **Which schemas can this role access:** dbt_mmiller (same one created in dbt)
