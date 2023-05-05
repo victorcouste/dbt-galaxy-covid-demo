@@ -37,7 +37,7 @@ Use the [CORE.MD](https://github.com/monimiller/dbt-galaxy-covid-demo/blob/main/
 
 
 ### dbt Cloud
-For the dbt Cloud tutorial, visit this [blog] for more information.
+For the dbt Cloud tutorial, visit this [blog](https://www.starburst.io/blog/build-an-open-data-lake-architecture-with-dbt-cloud-and-starburst-galaxy/) for more information.
 Use the [CLOUD.MD](https://github.com/monimiller/dbt-galaxy-covid-demo/blob/main/CLOUD.MD) as a README to run this demo using dbt Cloud.
 
 
