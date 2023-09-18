@@ -4,8 +4,8 @@ sources:
   - name: snowflake
     description: sample snowflake covid data
     loader: sample
-    catalog: snowflake
-    schema: demo  
+    catalog: snowflake_covid
+    schema: public
     tables:
 
       - name: owid_vaccinations
